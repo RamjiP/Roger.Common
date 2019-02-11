@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Authors>Ramji Piramanayagam</Authors>
+    <Description>This package has better json settings of Newtonsoft with Nodatime.</Description>
+    <PackageTags>Newtonsoft Json Settings NodaTime</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="NodaTime" Version="2.4.4" />
+    <PackageReference Include="NodaTime.Serialization.JsonNet" Version="2.1.0" />
+  </ItemGroup>
+
+</Project>
