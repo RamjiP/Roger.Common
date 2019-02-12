@@ -5,6 +5,7 @@
     <Authors>Ramji Piramanayagam</Authors>
     <Description>This package has better json settings of Newtonsoft with Nodatime.</Description>
     <PackageTags>Newtonsoft Json Settings NodaTime</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
