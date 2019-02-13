@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roger.Json", "Roger.Common.Json\Roger.Json.csproj", "{EF2D0212-C0B5-4F48-836C-6D651628E7C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roger.Common", "Roger.Common\Roger.Common.csproj", "{BF4BD4C0-5780-43AE-B9B0-67F8D94BB275}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roger.Common.Persistence", "Roger.Common.Persistence\Roger.Common.Persistence.csproj", "{BF4BD4C0-5780-43AE-B9B0-67F8D94BB275}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

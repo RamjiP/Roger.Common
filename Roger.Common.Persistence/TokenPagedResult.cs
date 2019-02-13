@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Roger.Common.Models
+namespace Roger.Common.Persistence
 {
     public class TokenPagedResult<T> : ITokenPagedResult<T>
     {
