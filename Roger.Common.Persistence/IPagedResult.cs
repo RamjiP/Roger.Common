@@ -7,5 +7,6 @@ namespace Roger.Common.Persistence
         List<T> Data { get; set; }
         int PageNumber { get; set; }
         int PageSize { get; set; }
+        bool HasNextPage { get; set; }
     }
 }
