@@ -1,0 +1,2 @@
+# Roger.Common
+Common libraries
