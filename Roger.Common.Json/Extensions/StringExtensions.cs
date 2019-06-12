@@ -13,7 +13,7 @@ namespace Roger.Json.Extensions
             {
                 return default(T);
             }
-            return JsonConvert.DeserializeObject<T>(str);
+            return JsonConvert.DeserializeObject<T>(str, SerializerSettings.Default);
         }
     }
 }

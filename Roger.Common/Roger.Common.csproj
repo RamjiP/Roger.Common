@@ -4,9 +4,7 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <Version>1.0.8</Version>
     <Authors>Ramji Piramanayagam</Authors>
-    <Description>This package has paged result for continuation token</Description>
-    <RepositoryType />
-    <PackageTags>Roger common PagedResult ContinuationToken</PackageTags>
+    <Description>This is utilities to have common code</Description>
   </PropertyGroup>
 
 </Project>

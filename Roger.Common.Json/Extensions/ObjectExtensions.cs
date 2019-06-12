@@ -11,7 +11,7 @@ namespace Roger.Json.Extensions
                 return null;
             }
 
-            return JsonConvert.SerializeObject(obj);
+            return JsonConvert.SerializeObject(obj, SerializerSettings.Default);
         }
     }
 }
