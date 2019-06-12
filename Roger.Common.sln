@@ -11,6 +11,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roger.Common.Messaging", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roger.Common", "Roger.Common\Roger.Common.csproj", "{EE34C648-5F6F-4503-AF1B-C66C0D2A39FF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{6E5801E8-4DA8-45CE-9571-5F3A8E426802}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2AF70181-5E95-4752-AD76-1B65511102D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +43,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF2D0212-C0B5-4F48-836C-6D651628E7C1} = {2AF70181-5E95-4752-AD76-1B65511102D4}
+		{BF4BD4C0-5780-43AE-B9B0-67F8D94BB275} = {2AF70181-5E95-4752-AD76-1B65511102D4}
+		{7A9328DA-EC81-420B-8167-EAAD2C4A7104} = {2AF70181-5E95-4752-AD76-1B65511102D4}
+		{EE34C648-5F6F-4503-AF1B-C66C0D2A39FF} = {2AF70181-5E95-4752-AD76-1B65511102D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D7CE143-DD07-402E-B26D-08859669059B}
