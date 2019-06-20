@@ -4,7 +4,7 @@ namespace Roger.Common.Persistence
 {
     public interface IPagedResult<T>
     {
-        int TotalRowCount { get; set; }
+        int TotalCount { get; set; }
         List<T> Data { get; set; }
         int PageNumber { get; set; }
         int PageSize { get; set; }
